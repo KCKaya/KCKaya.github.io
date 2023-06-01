@@ -2,34 +2,11 @@
 <html>
 <head>
   <title>GitHub.io Website</title>
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      const references = [
-        '{'
-        '   "posts": [ '
-        '     {'
-        '       "title": "The Future Of Medicine Is Tokens (2023 Article by Rapolas)",
-        '       "slug": "the-token-article",
-        '       "content": "Article about DeSci market and stack: https://zeeprime.capital/the-future-of-medicine-is-tokens",
-        '     }'
-        '   ]'
-        '}'
-      ];
-
-      const container = document.getElementById('references-container');
-      
-      references.forEach(function(reference) {
-        const paragraph = document.createElement('p');
-        paragraph.innerText = reference;
-        container.appendChild(paragraph);
-      });
-    });
-  </script>
 </head>
 <body>
   <h1>My GitHub.io Website</h1>
-  <div id="references-container"></div>
-</body>
+  <div id="content-container"></div>
 
-  
+  <script src="script.js"></script>
+</body>
 </html>
