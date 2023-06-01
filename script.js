@@ -1,24 +1,23 @@
-document.addEventListener('DOMContentLoaded', function() {
-  const jsonData = `{
+{
     "posts": [
       {
         "title": "The Future Of Medicine Is Tokens (2023 Article by Rapolas)",
-        "slug": "the-token-article",
-        "content": "Article about DeSci market and stack: https://zeeprime.capital/the-future-of-medicine-is-tokens"
-      }
+        "slug": "the-token-post",
+        "content": "..about DeSci market and stack"
+        "link": "https://zeeprime.capital/the-future-of-medicine-is-tokens"
+      },
+      {
+        "title": "DeSci: How Can DAOs Facilitate Collaboration And Push The Open Science Movement Forward (2022 Article by E Couvat)",
+        "slug": "the-dao-post",
+        "content": "..about how DeSci can revolutionize the niche of research"
+        "link": "https://coinvise.mirror.xyz/d_jTD1q4pFNXT8JwWUAp0o9TUacsBWNHr_LnRvTmivc"
+      },
+      {
+        "title": "The Future Of Medicine Is Tokens (2022 Article by Ethereum Foundation)",
+        "slug": "the-ether-post",
+        "content": "..about the details of the open science market that will be possible by actualizling DeSci"
+        "link": "https://ethereum.org/en/desci/"
+      },
+      
     ]
-  }`;
-
-  const data = JSON.parse(jsonData);
-  const container = document.getElementById('content-container');
-
-  data.posts.forEach(function(post) {
-    const title = document.createElement('h2');
-    title.innerText = post.title;
-    container.appendChild(title);
-
-    const content = document.createElement('p');
-    content.innerText = post.content;
-    container.appendChild(content);
-  });
-});
+ }
