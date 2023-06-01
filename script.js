@@ -15,6 +15,5 @@
         "slug": "the-ether-post",
         "content": "..about the details of the open science market that will be possible by actualizling DeSci <https://ethereum.org/en/desci/>"
       },
-      
     ]
  }
